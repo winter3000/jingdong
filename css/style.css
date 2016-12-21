@@ -1,0 +1,90 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,input{padding: 0;margin: 0;}
+body{font-family:arial,"Microsoft YaHei","宋体",sans-serif;}
+ul,li{list-style: none;}
+a{text-decoration: none;color: #666;} 
+img,input,textarea{border: none;}
+.clear{*zoom: 1;}
+.clear:after{content: "200B";display: block;font-size: 0;height: 0;clear: both;}
+.inner{width: 1210px;margin: 0 auto;}
+i{font-style: normal;font-family: consolas;}
+/******************head***********************/
+/******************head top***********************/
+.header{border-bottom: 2px solid #b1191a;}
+.header .top{height: 30px;background-color: #f1f1f1;font-family:"宋体";}
+.header .top .diqu{float: left;color: #666666;font-size: 12px;line-height: 30px;}
+.header .top .nav{float: right;}
+.header .top li{float: left;}
+.header .top .line{height: 12px;width: 1px;background-color: #dddddd;margin-top: 9px;}
+.header .top li a{padding: 0 10px;font-size: 12px;color: #666666;line-height: 30px;display: inline-block;}
+.header .top .first a{padding-right: 6px;}
+.header .top .red a{padding-left: 0px;color: #c81623;}
+.header .top li i{display: inline-block; padding-left: 9px;width: 12px;height: 6px;overflow: hidden;line-height: 0;font-size: 12px;}
+.header .top li span{display: inline-block;width: 15px;height: 20px;margin-top: 5px;background: url(../images/jd2015img.png) no-repeat;float: left;padding-right: 3px;}
+.header .top li a:hover span{background: url(../images/jd2015img.png) no-repeat 0 -25px;}
+.header .top li a:hover i{line-height: 11px;}
+.header .top a:hover{color: #c81623;}
+.header .top .white a:hover{background-color: #fff;}
+/************************head mid*****************/
+.header .mid .logo{float: left;padding-top: 20px;}
+.header .mid .logo img{width: 270px;height: 60px;}
+.header .mid .search{float: left;margin-top: 25px;padding-left: 92px;}
+.header .mid .text{float: left;border: 2px solid #b61d1d;width: 450px;height: 32px;padding-left: 4px;line-height: 32px;color: #666666;font-size: 14px;}
+.header .mid .btn{float: left;background-color: #b61d1d;width: 82px;height: 36px;color: #fff;line-height: 36px;font-size: 16px;}
+.header .mid .tags{font-size: 12px;height: 28px;line-height: 28px;font-family:"宋体";width: 538px;overflow: hidden;}
+.header .mid .tags a{color: #666;padding-right: 7px;}
+.header .mid .tags a:hover{color: #c81623;}
+.header .mid .tags .first{color: #c81623;}
+.header .mid .buy{float: right;width: 96px;height: 34px;border: 1px solid #dfdfdf;margin: 25px 65px 0 0;line-height: 34px;color: #666666;font-size: 12px;padding-left: 43px;background: url(../images/jd2015img.png) no-repeat 18px -48px;position: relative;}
+.header .mid .buy>i{float: right;padding-right: 11px;color: #b4b4b4;}
+.header .buy .number{height: 14px;color: #fff;line-height: 14px;position: absolute;top: -4px;left: 104px;font-size: 12px;padding-left:5px;background:#c81623 url(../images/left_pic.jpg) no-repeat;}
+.header .buy .number i{display: block; width: 6px;height: 14px; background: url(../images/right_pic.jpg) no-repeat right top ;position: absolute;top: 0px;right: -6px;}
+/******************head bot***********************/
+.header .bot{padding-top: 13px;}
+.header .bot h3{float: left;width: 200px;height: 44px;background-color: #b1191a;color: #fff;font-size: 15px;line-height: 44px;padding-left: 10px;font-weight: normal;}
+.header .bot ul{float: left;}
+.header .bot li{float: left;}
+.header .bot li a{display: block; font-size: 16px;line-height: 44px;height: 44px;color: #333333;padding: 0 20px;}
+.header .bot li a:hover{color: #c81623;}
+/*************************footer************************/
+/*************************footer nav************************/
+.footer{text-align: center;margin-top: 21px;}
+.footer a:hover{color: #c81623;}
+.footer .nav {height: 54px;padding: 20px 0;background-color: #f5f5f5;}
+.footer .nav ul{display: inline-block;}
+.footer .nav li{float: left;height: 54px;width: 300px;background: url(../images/nva_bg.png) no-repeat;}
+.footer .nav .list1{background-position: 0 -131px;}
+.footer .nav .list2{background-position: 0 -194px;}
+.footer .nav .list3{background-position: 0 -258px;}
+.footer .nav .list4{background-position: 0 -322px;}
+/*************************footer link-list************************/
+.footer .link-list{padding-top: 14px;height: 201px;text-align: left;border-bottom: 1px solid #e5e5e5;} 
+.footer .link-list dl{width: 199px;height: 201px;float: left;}
+.footer .link-list dt{font-size: 16px;line-height: 36px;height: 36px;color: #666666;}
+.footer .link-list dd{line-height: 20px;height: 20px;font-size: 12px;}
+.footer .link-list .list5{width: 164px;}
+.footer .link-list .list6{width: 190px;background: url(../images/20130330B_1.png) no-repeat 0 -133px;padding:0 40px 0 20px }
+.footer .link-list .list6 .text{line-height: 18px;padding-top: 9px;height: 47px;}
+.footer .link-list .list6 .more{line-height: 16px;height: 16px;text-align: right;}
+/*************************footer bot-link************************/
+.footer .bot-link1{display: inline-block;margin: 20px 0 10px;}
+.footer .bot-link1 li{float: left;line-height: 19px;height: 19px;font-size: 12px;color: #666;}
+.footer .bot-link1 a{padding: 0 10px;}
+.footer .bot-link2{line-height: 20px;font-size: 12px;color: #666;}
+.footer .bot-link2 .first{padding-left: 17px;background:url(../images/56a0a994Nf1b662dc.png) no-repeat; background-size: contain;}
+.footer .bot-link2 a{margin: 0 10px;}
+.footer .bot-link2 .last{margin: 0;}
+.footer .bot-link3{padding: 9px 0 33px;}
+.footer .bot-link3 a{margin: 0 6.3px;font-size: 0;}
+/*************************fixed************************/
+/* .fixed{position: fixed;top: 100px;left:50%;margin-left: -635px;}
+.fixed li{width: 20px;height: 28px;line-height: 28px; border-bottom: 1px dotted #c2c2c2;font-size: 14px;}
+.fixed li a{display: block;width: 25px;}
+.fixed .last{border: none;}
+.fixed li:hover a{color: #fff;background-color:#c81623;padding:0 2px;}*/
+.LocationFloorList{ position:fixed; top:200px; /*left:50%; margin-left:-635px;*/ left: 0;display:none}
+.LocationFloorList li{ height:30px; line-height:30px; width:30px; font-size:12px; text-align:center; border-bottom:1px dashed #ccc; cursor:pointer;}
+.LocationFloorList li b{ font-weight:normal}
+.LocationFloorList li span{ display:none; font-size:12px;}
+.LocationFloorList li.ac{ color:#fff; background:red}
+.LocationFloorList li.ac b{ display:none;}
+.LocationFloorList li.ac span{ display:inline}

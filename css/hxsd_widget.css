@@ -1,0 +1,30 @@
+/*确定弹窗----------------------------------------------------------------------*/
+.confirmBox{width: 300px; border: 1px solid #ccc;position: absolute;top: 50%;left: 50%;margin-top: -75px;margin-left: -150px;text-align: center;padding: 40px 30px;}
+.confirmBox button{width: 100px;height: 26px;line-height: 26px;border: none;background: #ccc;}
+
+/*模态层----------------------------------------------------------------------*/
+.modal{position: fixed;top: 0;left: 0;background-color: rgba(0,0,0,.3);width: 100%;height: 100%;}
+
+/*自动消失的错误弹窗----------------------------------------------------------------------*/
+.arr_box{max-width: 500px;position: absolute;background: red;color: #fff;text-align: center;padding: 10px;}
+
+/*登录框--------------------------------------------------------------------*/
+.loginBox{width: 500px;height: 300px;border: 1px solid #61abf6;position: absolute;z-index: 2; background-color: #fff; }
+.loginBox h3{height: 50px;line-height: 50px;background-color: #61abf6;color: #fff;padding-left: 30px;cursor: move;}
+.loginBox .closeBtn{width: 30px;height: 30px;position: absolute;top: 10px;right: 10px;text-align: center;line-height: 30px;color: #fff;font-size: 20px;cursor: pointer;}
+.loginBox form{padding-left: 30px;padding:30px 0 0 120px;}
+.loginBox label{display: block;height: 50px;width: 300px; line-height: 50px;}
+.loginBox .text{height: 23px;line-height: 23px;}
+.loginBox button{height: 36px;width: 100px;background-color: #fff;border: 1px solid #61abf6;margin-top: 20px;}
+
+/*轮播幻灯片--------------------------------------------------------------------*/
+.slide_box{width: 400px;height: 260px; overflow: hidden; position: relative;margin: 150px auto 0;background: #ccc;}
+.slide_box ol{position: absolute;right: 20px;bottom: 20px;z-index: 2;}
+.slide_box ol li{float: left;margin-right: 3px;display: inline;cursor: pointer;background: #fcf2cf;border: 1px solid #f47500;padding: 2px 6px;color: #d94b01;font-family: arial;font-size: 12px;}
+.slide_box .ac{padding: 3px 8px;font-weight: bold;background: #ffb442;position: relative;bottom: 2px;}
+.slide_box .ac a{color: #fff;}
+.slide_box ul{position: absolute;top: 0;left: 0;z-index: 1;}
+.slide_box ul li{width: 400px;height: 260px;float: left;}
+.slide_box .moveBtn{width: 40px;height: 50px;line-height: 50px;font-size: 35px;color: #fff;text-align: center;background: #333;opacity: .5;position: absolute;top: 50%;margin-top: -20px;z-index: 2;font-family: consolas;}
+.slide_box .prev{left: 0px;}
+.slide_box .next{right: 0px;}
